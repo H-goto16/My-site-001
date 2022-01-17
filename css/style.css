@@ -1,0 +1,140 @@
+.font-dis {
+  font-family: "EB Garamond", serif !important;
+}
+
+body {
+  background-color: rgba(249, 255, 238, 0.548) !important;
+  margin: 0;
+}
+
+.card-img-overlay {
+  padding: 0;
+  top: calc(40% + 0.5rem);
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "EB Garamond", serif;
+}
+
+.main-title {
+  font-family: "Klee One", cursive;
+  font-weight: 300;
+}
+
+.familier {
+  font-family: "Klee One", cursive;
+}
+
+.main {
+  font-family: "Klee One", cursive;
+}
+
+.sub {
+  font-size: 1em;
+  line-height: 30px;
+}
+
+.ts {
+  font-size: 1.2em;
+}
+
+.allc {
+  background-color: rgba(128, 225, 255, 0);
+}
+
+.octitle {
+  font-family: "Kaisei Decol", serif;
+  font-size: 2.5rem !important;
+}
+
+.frame {
+  -webkit-transform: scale(0.98438);
+          transform: scale(0.98438);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.sub1 {
+  position: relative !important;
+  top: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Klee One", cursive;
+  font-size: 1.2em;
+}
+
+.border {
+  border-width: 2px !important;
+  border: dashed !important;
+  text-align: center !important;
+}
+
+.map-title {
+  font-size: 1.3rem !important;
+  font-weight: 333 !important;
+}
+
+.lst {
+  font-family: "Klee One", cursive;
+  font-weight: 800;
+  font-size: 2em;
+  border-width: 1.75px !important;
+  border-bottom: dotted !important;
+  text-align: center !important;
+}
+
+.lst-fam {
+  font-family: "Klee One", cursive;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.cp {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+#title-animation {
+  display: none;
+}
+
+#sub-title-animation {
+  display: none;
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.main-title {
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.octitle {
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.img-fluid {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+}
+
+.img-fluid.inview {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+/*# sourceMappingURL=style.css.map */
